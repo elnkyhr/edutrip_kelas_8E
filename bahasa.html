@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bahasa Indonesia | Edutrip Kelas 8</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(135deg, #f0f4c3, #b2dfdb);
+      color: #333;
+      overflow-x: hidden;
+      position: relative;
+      background-image: url('https://www.transparenttextures.com/patterns/leafy-2.png'); /* Subtle leaf pattern */
+      background-size: 150px 150px;
+      background-position: center;
+      background-repeat: repeat;
+    }
+
+    header {
+      background: linear-gradient(to right, #00796b, #9ccc65);
+      color: white;
+      padding: 2.5rem 1rem;
+      text-align: center;
+      animation: fadeInDown 1s ease-out;
+      border-bottom: 5px solid #ffffff33;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-style: italic;
+      opacity: 0.95;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      background-color: #ffffff;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 3px solid #aed581;
+    }
+
+    nav a {
+      padding: 1rem 1.5rem;
+      text-decoration: none;
+      color: #33691e;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    nav a:hover {
+      background-color: #dcedc8;
+      transform: scale(1.12);
+      color: #00796b;
+      box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .content {
+      padding: 2.5rem 1rem;
+      max-width: 1000px;
+      margin: auto;
+      animation: fadeInUp 1s ease-in;
+    }
+
+    .section {
+      background: #ffffff;
+      border-radius: 20px;
+      padding: 2.5rem;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+      position: relative;
+      overflow: hidden;
+      animation: slideIn 1s ease-out;
+    }
+
+    .section:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+      background-color: #f1f8e9;
+    }
+
+    .section h2 {
+      color: #558b2f;
+      margin-bottom: 0.8rem;
+      animation: fadeIn 1s ease-in;
+    }
+
+    .section p {
+      line-height: 1.7;
+      font-size: 1.05rem;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    .section img {
+      max-width: 100%;
+      border-radius: 15px;
+      margin-top: 1.2rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      animation: zoomIn 1s ease-in-out;
+    }
+
+    .icon-tag {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      font-size: 1rem;
+      color: white;
+      background: linear-gradient(to right, #689f38, #00796b);
+      padding: 0.4rem 0.8rem;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+      font-weight: bold;
+    }
+
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes zoomIn {
+      from {
+        transform: scale(0.8);
+        opacity: 0;
+      }
+      to {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateX(-100px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Pelajaran Bahasa Indonesia</h1>
+    <p>Ulasan Hotel</p>
+  </header>
+
+  <nav>
+    <a href="index.html"><i class="fas fa-home"></i> Home</a>
+    <a href="agama.html"><i class="fas fa-praying-hands"></i> Agama</a>
+    <a href="ppkn.html"><i class="fas fa-scale-balanced"></i> PPKn</a>
+    <a href="english.html"><i class="fas fa-language"></i> English</a>
+    <a href="bahasa.html"><i class="fas fa-book-open"></i> Bahasa Indonesia</a>
+    <a href="mandarin.html"><i class="fas fa-comments"></i> Mandarin</a>
+    <a href="ips.html"><i class="fas fa-globe-asia"></i> IPS</a>
+  </nav>
+
+  <div class="content">
+    <div class="section">
+      <div class="icon-tag"><i class="fas fa-book-open"></i> Teks Ulasan</div>
+      <h2>Resensi Fullon Hotel Shenkeng</h2>
+      <img src="Resensi Fullon Hotel Shenkeng.png" alt="Teks Resensi">
+    </div>
+  </div>
+
+</body>
+
+</html>
